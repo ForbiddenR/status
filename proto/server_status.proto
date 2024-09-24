@@ -1,5 +1,7 @@
 syntax = "proto3";
-package server_status;
+option go_package = "./proto";
+
+package proto;
 
 message IpInfo {
   string query = 1;
